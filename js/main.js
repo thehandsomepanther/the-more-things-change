@@ -195,15 +195,6 @@ $(document).ready(function() {
 		timerText = game.add.text(200, 180, '', { font: '90px Fipps', fill: '#000', align: 'center'});
 		timerText.alpha = .5;
 
-		var buttonLeft = game.add.sprite(200, 30, 'button');
-		buttonLeft.scale.setTo(2, 2);
-
-		var buttonJump = game.add.sprite(368, 30, 'button');
-		buttonJump.scale.setTo(2, 2);
-
-		var buttonRight = game.add.sprite(536, 30, 'button');
-		buttonRight.scale.setTo(2, 2);
-
 		leftText = game.add.text(200, 90, 'Left', { font: '20px Fipps', fill: '#000'});
 		leftButtonText = game.add.text(220, 40, '?', { font: '20px Fipps', fill: '#000'});
 
